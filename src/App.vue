@@ -139,7 +139,7 @@ const createTask = () => {
     isShowModal.value = false;
     nextTick(() => {
       clearFields();
-      location.reload();
+      loadTasks();
     });
   }
 };
